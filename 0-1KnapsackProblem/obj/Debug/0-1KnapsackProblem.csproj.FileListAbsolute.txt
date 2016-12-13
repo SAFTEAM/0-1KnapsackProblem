@@ -1,0 +1,12 @@
+C:\Users\FARUK\Desktop\0-1KnapsackProblem\0-1KnapsackProblem\bin\Debug\0-1KnapsackProblem.exe.config
+C:\Users\FARUK\Desktop\0-1KnapsackProblem\0-1KnapsackProblem\bin\Debug\0-1KnapsackProblem.exe
+C:\Users\FARUK\Desktop\0-1KnapsackProblem\0-1KnapsackProblem\bin\Debug\0-1KnapsackProblem.pdb
+C:\Users\FARUK\Desktop\0-1KnapsackProblem\0-1KnapsackProblem\obj\Debug\0-1KnapsackProblem.csprojResolveAssemblyReference.cache
+C:\Users\FARUK\Desktop\0-1KnapsackProblem\0-1KnapsackProblem\obj\Debug\_0_1KnapsackProblem.Form1.resources
+C:\Users\FARUK\Desktop\0-1KnapsackProblem\0-1KnapsackProblem\obj\Debug\_0_1KnapsackProblem.Properties.Resources.resources
+C:\Users\FARUK\Desktop\0-1KnapsackProblem\0-1KnapsackProblem\obj\Debug\0-1KnapsackProblem.csproj.GenerateResource.Cache
+C:\Users\FARUK\Desktop\0-1KnapsackProblem\0-1KnapsackProblem\obj\Debug\0-1KnapsackProblem.exe
+C:\Users\FARUK\Desktop\0-1KnapsackProblem\0-1KnapsackProblem\obj\Debug\0-1KnapsackProblem.pdb
+C:\Users\FARUK\Documents\GitHub\0-1KnapsackProblem\0-1KnapsackProblem\bin\Debug\0-1KnapsackProblem.exe.config
+C:\Users\FARUK\Documents\GitHub\0-1KnapsackProblem\0-1KnapsackProblem\obj\Debug\0-1KnapsackProblem.exe
+C:\Users\FARUK\Documents\GitHub\0-1KnapsackProblem\0-1KnapsackProblem\obj\Debug\0-1KnapsackProblem.pdb

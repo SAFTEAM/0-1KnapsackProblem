@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+//FARUK ALBAYRAK SAMET TOPAKKAYA ANIL GÜRBÜZ 
 namespace _0_1KnapsackProblem
 {
     public partial class Form1 : Form
@@ -98,8 +98,10 @@ namespace _0_1KnapsackProblem
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
+            resetle();
             if (txbCapacity.Text != "")
             {
+               
                 int[] values = new int[v_list.Count];
                 int[] weights = new int[w_list.Count];
                 for (int i = 0; i < v_list.Count; i++)
@@ -123,6 +125,19 @@ namespace _0_1KnapsackProblem
             lvSelectedItems.Clear();
             lblMaxValue.Text = "";
             lblMaxWeight.Text = "";
+            a = 0;
+        }
+        public void resetle()
+        {
+            
+            txbValue.Clear();
+            txbVariable.Clear();
+            txbWeight.Clear();
+            lvTable.Clear();
+            lvSelectedItems.Clear();
+            lblMaxValue.Text = "";
+            lblMaxWeight.Text = "";
+            a = 0;
         }
     }
 }

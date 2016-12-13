@@ -29,11 +29,13 @@
         private void InitializeComponent()
         {
             this.lvInserted = new System.Windows.Forms.ListView();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.lvTable = new System.Windows.Forms.ListView();
             this.lvSelectedItems = new System.Windows.Forms.ListView();
             this.btnInsert = new System.Windows.Forms.Button();
             this.btnCalculate = new System.Windows.Forms.Button();
-            this.btnReset = new System.Windows.Forms.Button();
             this.txbVariable = new System.Windows.Forms.TextBox();
             this.txbValue = new System.Windows.Forms.TextBox();
             this.txbWeight = new System.Windows.Forms.TextBox();
@@ -43,9 +45,6 @@
             this.lblWeight = new System.Windows.Forms.Label();
             this.lblCapacity = new System.Windows.Forms.Label();
             this.lblSelected = new System.Windows.Forms.Label();
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.lblMaxValue = new System.Windows.Forms.Label();
             this.lblMaxWeight = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -62,6 +61,18 @@
             this.lvInserted.TabIndex = 0;
             this.lvInserted.UseCompatibleStateImageBehavior = false;
             this.lvInserted.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader1
+            // 
+            this.columnHeader1.Text = "Variable";
+            // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "Value";
+            // 
+            // columnHeader3
+            // 
+            this.columnHeader3.Text = "Weight";
             // 
             // lvTable
             // 
@@ -98,16 +109,6 @@
             this.btnCalculate.Text = "Calculate";
             this.btnCalculate.UseVisualStyleBackColor = true;
             this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
-            // 
-            // btnReset
-            // 
-            this.btnReset.Location = new System.Drawing.Point(53, 273);
-            this.btnReset.Name = "btnReset";
-            this.btnReset.Size = new System.Drawing.Size(100, 23);
-            this.btnReset.TabIndex = 5;
-            this.btnReset.Text = "Reset";
-            this.btnReset.UseVisualStyleBackColor = true;
-            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // txbVariable
             // 
@@ -182,18 +183,6 @@
             this.lblSelected.TabIndex = 14;
             this.lblSelected.Text = "Selected Variables";
             // 
-            // columnHeader1
-            // 
-            this.columnHeader1.Text = "Variable";
-            // 
-            // columnHeader2
-            // 
-            this.columnHeader2.Text = "Value";
-            // 
-            // columnHeader3
-            // 
-            this.columnHeader3.Text = "Weight";
-            // 
             // lblMaxValue
             // 
             this.lblMaxValue.AutoSize = true;
@@ -226,7 +215,6 @@
             this.Controls.Add(this.txbWeight);
             this.Controls.Add(this.txbValue);
             this.Controls.Add(this.txbVariable);
-            this.Controls.Add(this.btnReset);
             this.Controls.Add(this.btnCalculate);
             this.Controls.Add(this.btnInsert);
             this.Controls.Add(this.lvSelectedItems);
@@ -249,7 +237,6 @@
         private System.Windows.Forms.ListView lvSelectedItems;
         private System.Windows.Forms.Button btnInsert;
         private System.Windows.Forms.Button btnCalculate;
-        private System.Windows.Forms.Button btnReset;
         private System.Windows.Forms.TextBox txbVariable;
         private System.Windows.Forms.TextBox txbValue;
         private System.Windows.Forms.TextBox txbWeight;
